@@ -1,0 +1,36 @@
+/* font-styling  */
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Source+Code+Pro:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .home{
+    width: 100vw;
+    height: 100vh;
+    border: solid black 2px;
+
+} */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    z-index: -1;
+    background: url('images/college.jpg') no-repeat center center/cover;
+    opacity: 0.89;
+}
+
+
